@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -7,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h1>Welcome to My First React App 22100504_lee</h1>
+          <p>This is my first project using React. 22100504 lee min seok</p>
         </p>
         <a
           className="App-link"
@@ -18,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }

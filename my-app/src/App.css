@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  background-color: #f0f8ff;
+  padding: 20px;
 }
 
+.App-header h1 {
+  color: #007acc;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  color: #333;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
